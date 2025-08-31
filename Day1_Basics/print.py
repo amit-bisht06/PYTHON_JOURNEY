@@ -1,2 +1,4 @@
- #print() return the OUTPUT inside thie double Quotes "   "
-print("Hello,  World!")
+# PRINT METHODS
+
+print(100) #print Number
+print("Hello,  World!") #collection of word is enclosed within either single aur double quotes.
