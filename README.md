@@ -1,2 +1,3 @@
 # PYTHON_JOURNEY
-"Starting my Python journey from scratch! This repo will track my progress, experiments, and projects along the way."
+Day 1: Basics
+Day 2: Conditions (If-Else)
