@@ -1,3 +1,4 @@
 # PYTHON_JOURNEY
-Day 1: Basics
-Day 2: Conditions (If-Else)
+Day01: Basics
+Day02: Conditions (If-Else)
+Day03: Loops
