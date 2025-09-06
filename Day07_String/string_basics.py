@@ -1,7 +1,7 @@
-# STRINGS in python are surrounded by either single quotation marks, or double quotation marks.
-# 'hello' is the same as "hello".
+# String is the collection Words....
+# STRINGS in python are surrounded by either single quotation marks, or double quotation marks. e.g.('hello' is the same as "hello".)
 
-# Creating a string
+# Creating a String
 name = "Amit Bisht"
 print("Name: ", name)
 
@@ -25,7 +25,7 @@ print("Bisht" in name)
 if("it" in name):
     print("Yes, 'it' is Present.")
 
-# String Concatenation
+# String Concatenation -> Adding two Strings
 a = "Hello"
 b = "World"
 c = a +" "+ b
