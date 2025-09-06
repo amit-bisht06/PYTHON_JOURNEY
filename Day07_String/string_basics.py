@@ -20,12 +20,12 @@ for c in name:
 # String Length
 print(len(name))
 
-# Check String
+# Check String 
 print("Bisht" in name)
 if("it" in name):
     print("Yes, 'it' is Present.")
 
-# String Concatenation -> Adding two Strings
+# String Concatenation -> Adding two String together by operator "+"
 a = "Hello"
 b = "World"
 c = a +" "+ b

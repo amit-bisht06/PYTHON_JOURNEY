@@ -23,3 +23,7 @@ print("Occurence of h: ",text.count('h') )
 
 # Find Method --> Searches the string for a specified value and returns the position of where it was found
 print(text.find("python"))
+
+# partition() -->	Returns a tuple where the string is parted into three parts
+x = text.partition("python")
+print(x)
