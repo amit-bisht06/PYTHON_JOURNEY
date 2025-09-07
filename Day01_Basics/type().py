@@ -3,4 +3,7 @@ num=10
 print(type(num))
 
 is_Human = True
-print(is_Human)
+print(type(is_Human))
+
+a=None
+print(type(None))
