@@ -5,4 +5,4 @@ if num==0:
 elif num > 0:
     print(f"Number {num} is Posivitive.")
 else:
-    print(f"Number {num} is Negative.")        
+    print(f"Number {num} is Negative.")
