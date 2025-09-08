@@ -43,3 +43,15 @@ print()
 printItem(id=102, name="xyz", price=200)
 print()
 printItem(name="abc", id=101, price=500)
+#------------------------------------------------------------------
+
+# Returning Multiple Values in Python
+def multiValue(num1, num2):
+    sum = num1+num2
+    mul = num1* num2
+    return sum, mul 
+
+s, m = multiValue(7,8)
+print()
+print("Return Multiple Values")
+print("Sum= "+s, " Mul= ",m)
