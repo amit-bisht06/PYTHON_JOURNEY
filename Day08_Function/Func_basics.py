@@ -49,9 +49,9 @@ printItem(name="abc", id=101, price=500)
 def multiValue(num1, num2):
     sum = num1+num2
     mul = num1* num2
-    return sum, mul 
+    return sum, mul
 
-s, m = multiValue(7,8)
+s, m = multiValue(7, 8)
 print()
 print("Return Multiple Values")
-print("Sum= "+s, " Mul= ",m)
+print("Sum= "+s, " Mul= ", m)
