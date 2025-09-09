@@ -29,15 +29,20 @@ print("Maximum number: ", max_num(6,8))
 print()
 #------------------------------------------------------------------------------
 
-# Using map with lambda
+# Using map with lambda ->> map(function, iterable)
 nums = [1, 2, 3, 4, 5]
 square_list = list(map(lambda x : x**2, nums))
 print("Square of list: ", square_list)
 print()
 #------------------------------------------------------------------------------
 
-# Using filter with lambda
+# Using filter with lambda --> filter (function, iterable)
 even_num = list(filter(lambda x : x%2==0, nums))
 print("Even Number List: ", even_num)
 print()
 #-------------------------------------------------------------------------------
+
+# Using Lambda with sorted
+students = [("Amit",21), ("Chirag", 20), ("Rahul", 22)]
+students_sorted = sorted(students, key =lambda x: x[1])
+print("Students sorted by age: ", students_sorted)
