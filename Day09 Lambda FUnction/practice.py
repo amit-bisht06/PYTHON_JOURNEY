@@ -5,4 +5,5 @@ Practice Questions:
 3. Use filter() with lambda to find all numbers greater than 10 in a list.
 4. Use reduce() with lambda to find the product of all numbers in a list.
 5. Sort a list of dictionaries using a lambda function (by a specific key).
+
 """
