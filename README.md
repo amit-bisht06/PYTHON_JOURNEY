@@ -6,4 +6,5 @@ Day04: List <br>
 Day05: Tuple & Set  <br>
 Day06: Dictionary <br>
 Day07: String <br>
-Day08: Function
+Day08: Function <br>
+Day09: Lambda
