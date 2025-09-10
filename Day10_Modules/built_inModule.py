@@ -40,3 +40,25 @@ print("1 days ago: ", yesterday)
 
 future = now + datetime.timedelta(days=10)
 print("10 days later: ", future)
+print()
+#--------------------------------------------------------------------
+"""
+* os MODULE
+"""
+import os
+
+print("Current working directory: ", os.getcwd())
+print("Files:", os.listdir())
+print()
+#---------------------------------------------------------------
+
+"""
+* platform MODULE
+"""
+import platform
+
+print("System:", platform.system())          # e.g. 'Windows' or 'Linux'
+print("Release:", platform.release())        # e.g. '10'
+print("Version:", platform.version())        # OS version details
+print("Processor:", platform.processor())    # CPU info
+print("Python version:", platform.python_version())
