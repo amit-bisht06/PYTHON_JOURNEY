@@ -7,4 +7,5 @@ Day05: Tuple & Set  <br>
 Day06: Dictionary <br>
 Day07: String <br>
 Day08: Function <br>
-Day09: Lambda
+Day09: Lambda <br>
+Day10: Module
