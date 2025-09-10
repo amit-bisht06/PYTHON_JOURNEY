@@ -1,5 +1,5 @@
 """
-Practice Questions:
+TODO: Practice Questions:
 1. Write a lambda function to calculate the cube of a number.
 2. Use map() with lambda to convert a list of strings into uppercase.
 3. Use filter() with lambda to find all numbers greater than 10 in a list.
