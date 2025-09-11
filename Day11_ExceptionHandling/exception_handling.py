@@ -1,8 +1,11 @@
 # Basic try-except
-try: 
+try:    # --> Block of code where you put the statements that might cause an error. 
+         # --> If an error occurs → Python jumps to the  except block.
     num= int(input("Enter a number: "))
     print("You Entered: ", num)
 except ValueError:
+    # Handles the error that occurs inside try.
+    # Can specify the error type (ValueError, ZeroDivisionError) or leave it general.
     print("Invalid Input! Please enter a number") 
 
 # * Multiple exceptions
@@ -15,7 +18,7 @@ except ZeroDivisionError:
 except Exception as e:  
     print("Some other error occured: ",e)  
 
-# * Using else
+# * Using else  --> Runs only if no error occurs in the try block.
 try:
     x = int("5")
 except ValueError:
@@ -23,7 +26,7 @@ except ValueError:
 else: 
     print("Conversion successful: ",x)
 
-# * Using finally
+# * Using finally --> This block always executes (whether an error happened or not), --> Used for cleanup tasks like closing files, releasing resources.
 try:
     f = open("text.txt","w")
     f.write("Hello")
