@@ -33,3 +33,9 @@ try:
 finally:
     f.close()
     print("File closed (finally block executed)")
+
+# * Using raise --> Used to manually throw an exception.
+                    # *--> Helpful when you want to enforce rules in your code.
+age = 16
+if age < 18:
+    raise ValueError("Age must be at least 18.")                    
