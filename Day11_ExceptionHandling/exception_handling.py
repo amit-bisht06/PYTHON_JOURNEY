@@ -14,3 +14,11 @@ except ZeroDivisionError:
     print("Divison by zero is not allowed")        
 except Exception as e:  
     print("Some other error occured: ",e)  
+
+# * Using else
+try:
+    x = int("5")
+except ValueError:
+    print("Invalid Conversion")
+else: 
+    print("Conversion successful: ",x)    
