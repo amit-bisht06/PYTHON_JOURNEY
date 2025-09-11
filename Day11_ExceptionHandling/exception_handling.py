@@ -21,4 +21,12 @@ try:
 except ValueError:
     print("Invalid Conversion")
 else: 
-    print("Conversion successful: ",x)    
+    print("Conversion successful: ",x)
+
+# * Using finally
+try:
+    f = open("text.txt","w")
+    f.write("Hello")
+finally:
+    f.close()
+    print("File closed (finally block executed)")
