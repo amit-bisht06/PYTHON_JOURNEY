@@ -1,0 +1,12 @@
+What it is: Exception Handling allows your program to deal with errors gracefully instead of crashing.
+====================
+Why it’s useful: ???
+====================
+1. Prevents runtime errors from breaking your program.
+2. Makes your code more reliable and user-friendly.
+===================
+Key keywords: try, except, finally, else, raise.
+===================
+When to use:
+============
+1. Whenever you deal with uncertain inputs (file handling, user input, API calls, etc.).
