@@ -1,0 +1,13 @@
+Day 13 OVERVIEW - OOP Intro( Class and Object )
+
+Question:   What it is?
+Answer:      OOP (Object-Oriented Programming) is a way to structure code using classes (blueprints) and objects (instances).
+
+Question: Why it’s important ?
+Answer:    Makes code reusable, modular, and organized.
+                 Helps in real-world modeling (e.g., a Student class can represent thousands of students as objects).
+
+HEADING --> Key concepts:
+   class → defines attributes (variables) and methods (functions).
+   object → created from a class, has its own data.
+    __init__() → constructor, called automatically when an object is created.
